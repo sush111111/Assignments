@@ -9,46 +9,64 @@
 </head>
 <body>
     <!-- Header -->
-     <header class="bg-dark text-white p-4">
-         <div class="container">
-            <h1>Susmita Singh</h1>
-            <p>I have done my B.Tech from IIEST, Shibpur and currently I'm working as a software developer in Deutsche Bank.</p>
-         </div>
-     </header>
-
-    <!-- About me -->
-     <section class="aboutMe py-5">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm a tech enthusiast, working a Fintech. In future, I would like to explore the unexplored tech stacks as much as possible through projects that can add value to the company and society as well. Apart from this, my hobby is dancing, which is a stress buster for me.</p>
+    <header class="bg-primary text-white py-4">
+        <div class="container text-center animate__animated animate__fadeInDown">
+            <h1 class="display-4">Susmita Singh</h1>
+            <p class="lead">B.Tech from IIEST, Shibpur | Software Developer at Deutsche Bank</p>
         </div>
-     </section>
- 
+    </header>
+
+    <!-- About Me -->
+    <section class="aboutMe py-5">
+        <div class="container text-center animate__animated animate__fadeInLeft">
+            <h2 class="mb-4">About Me</h2>
+            <p>I'm a tech enthusiast, working in Fintech. In the future, I would like to explore the unexplored tech stacks through projects that add value to the company and society. Apart from this, my hobby is dancing, which is a stress buster for me.</p>
+        </div>
+    </section>
 
     <!-- Portfolio -->
-     <section class="portfolio py-5 bg-light">
+    <section class="portfolio py-5 bg-light">
         <div class="container">
-            <h2>Portfolio</h2>
-            <div class="card px-5 py-5">
-                <h3>Photo blog app</h3>
-                <p>This was a full stack application, in which users could login, post pictures and thoughts on it. They could view others photos as well. The frontend of this project was made using react, backend was written in appwrite, git was used as version control software and was hosted on vercel app.</p>
-            </div>
-            <div class="card px-5 py-5">
-                <h3>Photo blog app</h3>
-                <p>This was a full stack application, in which users could login, post pictures and thoughts on it. They could view others photos as well. The frontend of this project was made using react, backend was written in appwrite, git was used as version control software and was hosted on vercel app.</p>
-            </div>
-            <div class="card px-5 py-5">
-                <h3>Photo blog app</h3>
-                <p>This was a full stack application, in which users could login, post pictures and thoughts on it. They could view others photos as well. The frontend of this project was made using react, backend was written in appwrite, git was used as version control software and was hosted on vercel app.</p>
+            <h2 class="text-center mb-4 animate__animated animate__fadeInRight">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-primary animate__animated animate__zoomIn">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary">Photo Blog App</h3>
+                            <p class="card-text">A full-stack application where users can login, post pictures, and share thoughts. Users can view others' photos as well. The frontend was built using React, the backend with Appwrite, version control with Git, and hosted on Vercel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-success animate__animated animate__zoomIn">
+                        <div class="card-body">
+                            <h3 class="card-title text-success">E-commerce Platform</h3>
+                            <p class="card-text">Developed a comprehensive e-commerce platform with features such as product listings, cart functionality, and user authentication. Used React for the frontend, Node.js for the backend, and MongoDB for the database.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-danger animate__animated animate__zoomIn">
+                        <div class="card-body">
+                            <h3 class="card-title text-danger">Portfolio Website</h3>
+                            <p class="card-text">Designed and implemented a personal portfolio website to showcase my projects and skills. Utilized HTML, CSS, and JavaScript to create a responsive and visually appealing site.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-     </section>
+    </section>
 
     <!-- Contact -->
-     <section class="contact bg-dark text-white text-center p-3">
-        <h5>Contact me here:</h5>
-        <h5>Email - susmitasingh@gmail.com</h5>
-        <h5>Ph no.- 9876543210</h5>
-     </section>
+    <section class="contact bg-dark text-white text-center py-4">
+        <div class="container animate__animated animate__fadeInUp">
+            <h5>Contact Me</h5>
+            <p>Email: <a href="mailto:susmitasingh@gmail.com" class="text-white">susmitasingh@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919876543210" class="text-white">+91 9876543210</a></p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoDxE49K/DStjHeAN+1Bj47jFqO35g8E5E/s6B4pD7fT6tY" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </body>
 </html>
